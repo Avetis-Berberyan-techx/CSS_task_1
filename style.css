@@ -284,3 +284,128 @@ body {
 }
 
 
+.position_wrapper {
+    background-color: #ffff;
+    border-radius: 15px;
+    margin-top:20px;
+    padding-bottom: 15px;
+}
+
+.position {
+
+}
+
+.position__header {
+    font-weight: 100px;
+    color:#666;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.position__stickyHeader {
+    position: sticky;
+    background-image: linear-gradient(45deg, rgb(255, 107, 107), rgb(254, 202, 87));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.position__RELandABS {
+    position: relative;
+    background-image: linear-gradient(45deg, rgb(255, 107, 107), rgb(254, 202, 87));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.REL {
+    position: relative;
+    background-image: linear-gradient(45deg, rgb(255, 107, 107), rgb(254, 202, 87));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.ABS {
+    position: absolute;
+    bottom: -25px;
+    right:-35px;
+    background-image: linear-gradient(45deg, rgb(125, 107, 107), rgb(254, 202, 87));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    border-radius: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
