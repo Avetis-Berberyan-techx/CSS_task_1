@@ -1,0 +1,21 @@
+body {
+    background-color: #6a71d7;
+}
+
+.header {
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffff;
+}
+.header__bigText {
+    font-weight: 40px;
+    color: #6a71d7;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.header__smallText {
+    font-weight: 40px;
+    color: #666;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
