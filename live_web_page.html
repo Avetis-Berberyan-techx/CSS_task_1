@@ -15,7 +15,9 @@
             <h3 class="header__smallText--text">Practice CSS Grid, Flexbox, Positioning, Media Queries, and More!</h3>
         </div>
     </header>
-    <main class=main>
+
+    <main class="main">
+
         <div class="main__wrapper">
             <section class="grid">
                 <div class="grid__Baseheader"><h2 class="grid_practice">🔲 CSS Grid Practice</h2></div>
@@ -43,17 +45,17 @@
                             <div class="container_Item_1">Footer Left</div>
                         </div>
                         <div class="header_point_2--body__container_2">
-                            <div class="container_Item_2"> Main Content</div></div>
+                            <div class="container_Item_2"> Main Content</div>
+                        </div>
                         <div class="header_point_2--body__container_1">
                             <div class="container_Item_1">Ads</div>
                             <div class="container_Item_1">Footer Right</div>
                         </div>
-
                     </div>
                 </div>
             </section>
         </div>
-        
+
         <div class="flex_wrapper">
             <section class="flex" style="padding-left: 15px; padding-right: 15px;">
                 <div class="flex__BaseHeader">
@@ -83,6 +85,7 @@
                 </div>
             </section>        
         </div>
+
         <div class="position_wrapper">
             <div class="position" style="padding-left: 15px; padding-right: 15px;">
                 <div class="position__header"><h2>📍 Position Practice</h2></div>
@@ -92,12 +95,128 @@
                     <div class="REL">Relative Container</div>
                     <div class="ABS">absolute</div>
                 </div>
-                <div class="fixed">Fixed</div>
+            </div>
+            <div class="fixed">Fixed</div>
+        </div>
+
+
+
+        <section class="tablePractice" style="padding: 20px;">
+            <h2>📊 Table Practice</h2>
+            <hr style="background-color: #6a71d7; height: 2px; border: none; margin-bottom: 20px;">
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row"><td>John Doe</td><td>Frontend Developer</td><td>Engineering</td><td>$75,000</td><td>Active</td></tr>
+                        <tr class="table__row"><td>Jane Smith</td><td>UX Designer</td><td>Design</td><td>$68,000</td><td>Active</td></tr>
+                        <tr class="table__row"><td>Mike Johnson</td><td>Backend Developer</td><td>Engineering</td><td>$80,000</td><td>On Leave</td></tr>
+                        <tr class="table__row"><td>Sarah Wilson</td><td>Product Manager</td><td>Product</td><td>$90,000</td><td>Active</td></tr>
+                    </tbody>
+                </table>
             </div>
 
-        </div>
-            
+            <h3 style="margin-top: 30px;">Responsive Card Layout</h3>
+            <div class="card-container">
+                <div class="card">
+                    <p><strong>John Doe</strong></p>
+                    <p><strong>Position:</strong> Frontend Developer</p>
+                    <p><strong>Department:</strong> Engineering</p>
+                    <p><strong>Salary:</strong> $75,000</p>
+                </div>
+
+                <div class="card">
+                    <p><strong>Jane Smith</strong></p>
+                    <p><strong>Position:</strong> UX Designer</p>
+                    <p><strong>Department:</strong> Design</p>
+                    <p><strong>Salary:</strong> $68,000</p>
+                </div>
+
+                <div class="card">
+                    <p><strong>Mike Johnson</strong></p>
+                    <p><strong>Position:</strong> Backend Developer</p>
+                    <p><strong>Department:</strong> Engineering</p>
+                    <p><strong>Salary:</strong> $80,000</p>
+                </div>
+            </div>
+
+        </section>
+        
+
     </main>
-    
+    <footer>
+        <section class="formPractice">
+            <h2 class="formPractice__title">📝 Form & Input Practice</h2>
+            <hr class="formPractice__divider">
+
+            <div class="formPractice__container">
+
+                <div class="formPractice__row">
+
+                    <div class="formPractice__col">
+                        <h3 class="formPractice__subtitle">Text Inputs</h3>
+
+                        <label class="formPractice__label">Full Name</label>
+                        <input type="text" class="formPractice__input" placeholder="Enter your full name">
+
+                        <label class="formPractice__label">Email Address</label>
+                        <input type="email" class="formPractice__input formPractice__input--success" placeholder="john@example.com">
+
+                        <label class="formPractice__label">Password</label>
+                        <input type="password" class="formPractice__input formPractice__input--error" placeholder="Enter password">
+
+                        <label class="formPractice__label">Phone Number</label>
+                        <input type="text" class="formPractice__input" placeholder="+1 (555) 123-4567">
+                    </div>
+
+                    <div class="formPractice__col">
+                        <h3 class="formPractice__subtitle">Select & Options</h3>
+
+                        <label class="formPractice__label">Country</label>
+                        <select class="formPractice__select">
+                            <option>Select a country</option>
+                            <option value="us">United States</option>
+                            <option value="ca">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="aus">Australia</option>
+
+                        </select>
+
+                        <label class="formPractice__label">Preferred Contact Method</label>
+                        <div class="formPractice__radioGroup">
+                            <label><input type="radio" name="contact"> Email</label>
+                            <label><input type="radio" name="contact"> Phone</label>
+                            <label><input type="radio" name="contact"> SMS</label>
+                        </div>
+
+                        <div class="formPractice__checkboxGroup">
+                            <label><input type="checkbox"> Subscribe to newsletter</label><br>
+                            <label><input type="checkbox"> I agree to the terms and conditions</label>
+                        </div>
+                    </div>
+                </div>
+
+                <label class="formPractice__label">Message</label>
+                <textarea class="formPractice__textarea" placeholder="Enter your message here..."></textarea>
+
+                <label class="formPractice__label">Date</label>
+                <input type="date" class="formPractice__input">
+
+                <label class="formPractice__label">Range Slider</label>
+                <input type="range" class="formPractice__range">
+            </div>
+        </section>
+
+    </footer>
+
 </body>
 </html>
