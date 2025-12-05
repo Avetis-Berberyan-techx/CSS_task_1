@@ -1,8 +1,10 @@
 body {
     background-color: #6a71d7;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10%;
+    /* margin-right: 20%; */
     min-width: 430px;
+    width: 80%;
+    justify-content: center;
 }
 
 .header {
