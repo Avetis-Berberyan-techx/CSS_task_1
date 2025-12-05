@@ -569,10 +569,3 @@ tbody tr:hover {
     width: 100%;
     margin-top: 10px;
 }
-
-/* Responsive
-@media (max-width: 768px) {
-    .formPractice__row {
-        flex-direction: column;
-    }
-} */
