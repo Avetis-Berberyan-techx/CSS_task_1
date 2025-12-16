@@ -250,6 +250,7 @@ body {
   font-weight: 700;
   margin-bottom: 8px;
 }
+<<<<<<< HEAD
 
 .message-box__input {
   border: 1px solid #dce4ec;
@@ -352,3 +353,5 @@ body {
         padding: 15px;
     }
 }
+=======
+>>>>>>> 4af1792b44cc079ef2b1933a35ad0284cb2c9e99
