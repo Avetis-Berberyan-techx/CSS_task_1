@@ -1,20 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta charset="UTF-8"></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    ></link>
+
+    <title>CSS Practice</title>
 </head>
-<body>
+
+<body class="page">
     <header class="header">
-        <div class="header__bigText">
-            <h1 class="header__bigText--text">CSS Layout Practice Page</h1>
-        </div>
-        <div class="header__smallText">
-            <h3 class="header__smallText--text">Practice CSS Grid, Flexbox, Positioning, Media Queries, and More!</h3>
-        </div>
+        <h1 class="header__title">CSS Layout Practice Page</h1>
+
+        <p class="header__subtitle">
+            Practice CSS Grid, Flexbox, Positioning, Media Queries, and More!
+        </p>
     </header>
-    
+
+    <main class="main-content">
+        <section class="section section--grid">
+            <h2 class="section__title">🔲 CSS Grid Practice</h2>
+
+            <hr class="section__divider">
+
+            <div class="practice-block">
+                <h3 class="practice-block__label">
+                    Basic Grid (Auto-fit & Minmax)
+                </h3>
+
+                <div class="grid-auto">
+                    <div class="grid-auto__item">Grid Item 1</div>
+
+                    <div class="grid-auto__item">Grid Item 2</div>
+
+                    <div class="grid-auto__item">Grid Item 3</div>
+
+                    <div class="grid-auto__item">Grid Item 4</div>
+
+                    <div class="grid-auto__item">Grid Item 5</div>
+
+                    <div class="grid-auto__item">Grid Item 6</div>
+                </div>
+            </div>
+
+            <div class="practice-block">
+                <h3 class="practice-block__label">Advanced Grid Layout</h3>
+
+                <div class="grid-complex">
+                    <div class="grid-complex__sidebar">
+                        <div class="grid-complex__box">SideBar</div>
+
+                        <div class="grid-complex__box">Footer Left</div>
+                    </div>
+
+                    <div class="grid-complex__main">Main Content</div>
+
+                    <div class="grid-complex__ads">
+                        <div class="grid-complex__box">Ads</div>
+
+                        <div class="grid-complex__box">Footer Right</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--flex">
+            <h2 class="section__title">📦 Flexbox Practice</h2>
+
+            <hr class="section__divider">
+
+            <div class="practice-block">
+                <h3 class="practice-block__label">Flexible Items</h3>
+
+                <div class="flex-row">
+                    <div class="flex-row__item">flex Item 1</div>
+
+                    <div class="flex-row__item">flex Item 2</div>
+
+                    <div class="flex-row__item">flex Item 3</div>
+                </div>
+            </div>
+
+            <div class="practice-block">
+                <h3 class="practice-block__label">Flex Direction & Alignment</h3>
+
+                <div class="flex-align">
+                    <div class="flex-align__item">left</div>
+
+                    <div class="flex-align__item">center</div>
+
+                    <div class="flex-align__item">right</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--position">
+            <h2 class="section__title">📍 Position Practice</h2>
+
+            <hr class="section__divider">
+
+            <div class="sticky-bar">
+                Sticky Header (scroll to see effect)
+            </div>
+
+            <div class="relative-box">
+                Relative Container
+
+                <div class="absolute-box">absolute</div>
+            </div>
+
+            <div class="fixed-btn">Fixed</div>
+        </section>
+
+        <section class="section section--table">
+            <h2 class="section__title">📊 Table Practice</h2>
+
+            <hr class="section__divider">
+
+            <div class="table-container">
+                <table class="data-table">
+                    <thead class="data-table__head">
+                        <tr>
+                            <th>Name</th>
+
+                            <th>Position</th>
+
+                            <th>Department</th>
+
+                            <th>Salary</th>
+
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="data-table__body">
+                        <tr class="data-table__row">
+                            <td>John Doe</td>
+
+                            <td>Frontend</td>
+
+                            <td>Engineering</td>
+
+                            <td>$75k</td>
+
+                            <td>Active</td>
+                        </tr>
+
+                        <tr class="data-table__row">
+                            <td>Jane Smith</td>
+
+                            <td>UX Designer</td>
+
+                            <td>Design</td>
+
+                            <td>$68k</td>
+
+                            <td>Active</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="practice-block__label">Responsive Card Layout</h3>
+
+            <div class="card-grid">
+                <div class="card">
+                    <p>
+                        <strong>John Doe</strong>
+                    </p>
+
+                    <p>Frontend Developer</p>
+                </div>
+
+                <div class="card">
+                    <p>
+                        <strong>Jane Smith</strong>
+                    </p>
+
+                    <p>UX Designer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="form-section">
+            <h2 class="form-section__title">📝 Form & Input Practice</h2>
+
+            <hr class="section__divider">
+
+            <form class="form-section__container">
+                <div class="form-section__row">
+                    <div class="form-section__col">
+                        <label class="form-label">Full Name</label>
+
+                        <input
+                            type="text"
+                            class="form-input"
+                            placeholder="Name"
+                        ></input>
+
+                        <br>
+
+                        <label class="form-label">Email</label>
+
+                        <br>
+
+                        <input
+                            type="email"
+                            class="form-input form-input--success"
+                            placeholder="Email"
+                        ></input>
+
+                        <br>
+
+                        <label class="form-label">Password</label>
+
+                        <input
+                            type="text"
+                            class="form-input"
+                            placeholder="Password"
+                        ></input>
+
+                        <br>
+
+                        <label class="form-label">Phone</label>
+
+                        <br>
+
+                        <input
+                            type="text"
+                            class="form-input"
+                            placeholder="Phone"
+                        ></input>
+                    </div>
+
+                    <div class="form-section__col">
+                        <label class="form-label">Country</label>
+
+                        <br>
+
+                        <select class="form-select">
+                            <option>United States</option>
+
+                            <option>Canada</option>
+                        </select>
+
+                        <div class="form-practice">
+                            <div class="radio-group">
+                                <div class="radio-item">
+                                    <input
+                                        type="radio"
+                                        id="email-contact"
+                                        name="contact"
+                                        class="styled-radio"
+                                        value="email"
+                                    ></input>
+
+                                    <label for="email-contact">Email</label>
+                                </div>
+
+                                <div class="radio-item">
+                                    <input
+                                        type="radio"
+                                        id="phone-contact"
+                                        name="contact"
+                                        class="styled-radio"
+                                        value="phone"
+                                    ></input>
+
+                                    <label for="phone-contact">Phone</label>
+                                </div>
+
+                                <div class="radio-item">
+                                    <input
+                                        type="radio"
+                                        id="sms-contact"
+                                        name="contact"
+                                        class="styled-radio"
+                                        value="sms"
+                                    ></input>
+
+                                    <label for="sms-contact">SMS</label>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <div class="checkbox-group">
+                                    <input
+                                        type="checkbox"
+                                        id="newsletter"
+                                        class="styled-checkbox"
+                                    ></input>
+
+                                    <label for="newsletter">Subscribe to newsletter</label>
+                                </div>
+
+                                <div class="checkbox-group">
+                                    <input
+                                        type="checkbox"
+                                        id="terms"
+                                        class="styled-checkbox"
+                                    ></input>
+
+                                    <label for="terms">
+                                        I agree to the terms and conditions
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="message-box">
+                    <label
+                        for="user-message"
+                        class="message-box__label"
+                    >Message</label>
+
+                    <textarea
+                        id="user-message"
+                        class="message-box__input"
+                        placeholder="Enter your message here..."
+                    ></textarea>
+                </div>
+
+                <div class="date-input">
+                    <label
+                        for="date-field"
+                        class="date-input__label"
+                    >Date</label>
+
+                    <div class="date-input__wrapper">
+                        <input
+                            type="date"
+                            id="date-field"
+                            class="date-input__field"
+                        ></input>
+                    </div>
+                </div>
+
+                <div class="range-slider">
+                    <label
+                        for="range-field"
+                        class="range-slider__label"
+                    >Range Slider</label>
+
+                    <input
+                        type="range"
+                        id="range-field"
+                        class="range-slider__input"
+                        min="0"
+                        max="100"
+                        value="50"
+                    ></input>
+                </div>
+            </form>
+        </section>
+    </footer>
 </body>
 </html>
